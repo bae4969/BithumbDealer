@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BithumbDealer", "BithumbDealer\BithumbDealer.csproj", "{DE0FFE94-6E3C-4EC9-ADC3-DF5B933DA352}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "BithumbDealer_setup", "BithumbDealer_setup\BithumbDealer_setup.vdproj", "{F197AD2A-ECEB-418E-ADEE-E4CD62CC30B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D4FD897D-64DE-4523-BC8C-9A13B37E3FB5}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE0FFE94-6E3C-4EC9-ADC3-DF5B933DA352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE0FFE94-6E3C-4EC9-ADC3-DF5B933DA352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE0FFE94-6E3C-4EC9-ADC3-DF5B933DA352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE0FFE94-6E3C-4EC9-ADC3-DF5B933DA352}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F197AD2A-ECEB-418E-ADEE-E4CD62CC30B3}.Debug|Any CPU.ActiveCfg = Debug
+		{F197AD2A-ECEB-418E-ADEE-E4CD62CC30B3}.Release|Any CPU.ActiveCfg = Release
+		{F197AD2A-ECEB-418E-ADEE-E4CD62CC30B3}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BFB7FF5-CBEA-4877-B289-5506ACD697A9}
+	EndGlobalSection
+EndGlobal
