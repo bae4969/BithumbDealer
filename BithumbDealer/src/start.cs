@@ -9,14 +9,14 @@ namespace BithumbDealer
         [STAThread]
         static void Main()
         {
-            //System.Diagnostics.Process[] processes = null;
-            //string strCurrentProcess = System.Diagnostics.Process.GetCurrentProcess().ProcessName.ToUpper();
-            //processes = System.Diagnostics.Process.GetProcessesByName(strCurrentProcess);
-            //if (processes.Length > 1)
-            //{ 
-            //    MessageBox.Show("Already program executed.");
-            //    return;
-            //}
+            System.Diagnostics.Process[] processes = null;
+            string strCurrentProcess = System.Diagnostics.Process.GetCurrentProcess().ProcessName.ToUpper();
+            processes = System.Diagnostics.Process.GetProcessesByName(strCurrentProcess);
+            if (processes.Length > 1)
+            {
+                MessageBox.Show("Already program executed.");
+                return;
+            }
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
